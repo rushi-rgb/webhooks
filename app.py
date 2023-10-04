@@ -2,7 +2,7 @@ import http.server
 import socketserver
 
 PORT = 8080
-MESSAGE = "Hello V34"
+MESSAGE = "Hello from Github"
 
 class MyHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
